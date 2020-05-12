@@ -13299,15 +13299,15 @@ q=n*c.b/r
 s=new P.R(n,q)
 t=new P.R(r,q*r/n)
 break
-case C.uN:r=c.b
+case C.oX:r=c.b
 q=n*c.a/r
 s=new P.R(q,n)
 t=new P.R(q*r/n,r)
 break
-case C.uO:s=new P.R(Math.min(H.n(b.a),H.n(c.a)),Math.min(n,H.n(c.b)))
+case C.uN:s=new P.R(Math.min(H.n(b.a),H.n(c.a)),Math.min(n,H.n(c.b)))
 t=s
 break
-case C.oX:o=b.a/n
+case C.uO:o=b.a/n
 r=c.b
 t=n>r?new P.R(r*o,r):b
 n=c.a
@@ -50003,7 +50003,7 @@ C:function(a){var t=null,s=F.bw(a,!1).a,r=s.a
 return M.b0(t,new E.ng(r,new A.Si(),3,new K.Sj(C.oj,C.vr),C.tE,t),t,t,t,t,s.b*0.4,t,t,new V.ac(0,0.2,0,0),t,r*0.5)}}
 A.Si.prototype={
 $2:function(a,b){var t=new P.aT(15,15)
-return new T.xQ(new K.bb(t,t,t,t),B.a2i(C.oX,new L.jH("flutter_web.png"),new L.jH("assets/Loading2.gif")),null)},
+return new T.xQ(new K.bb(t,t,t,t),B.a2i(C.oX,new L.jH("assets/flutter_web.png"),new L.jH("assets/Loading2.gif")),null)},
 $C:"$2",
 $R:2};(function aliases(){var t=H.GV.prototype
 t.IS=t.aL
@@ -51634,9 +51634,9 @@ C.uK=new U.h2("BoxFit.fill")
 C.uL=new U.h2("BoxFit.contain")
 C.oW=new U.h2("BoxFit.cover")
 C.uM=new U.h2("BoxFit.fitWidth")
-C.uN=new U.h2("BoxFit.fitHeight")
-C.uO=new U.h2("BoxFit.none")
-C.oX=new U.h2("BoxFit.scaleDown")
+C.oX=new U.h2("BoxFit.fitHeight")
+C.uN=new U.h2("BoxFit.none")
+C.uO=new U.h2("BoxFit.scaleDown")
 C.lg=new P.xv("BoxHeightStyle.tight")
 C.oY=new P.xv("BoxHeightStyle.strut")
 C.bd=new F.xz("BoxShape.circle")
